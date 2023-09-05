@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    background-color: rgb(56, 216, 88);
+    border-radius: 5px;
+    width: 33%;
+}
+ul li{
+    padding: 8px 20px;
+    border-right: 1px solid;
+}
+.a{
+    color: aliceblue;
+}
+ul li:last-child{
+    border-right: 0;
+}
+ul li:hover a{
+    color: #b31c1c;
+}
+ul li .a:hover{
+    color:yellow;
+}
